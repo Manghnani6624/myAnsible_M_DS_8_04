@@ -1,0 +1,26 @@
+---
+mystudents: 
+- name: anil
+  phno: 88888
+  address: 
+     - doorno: 534
+     - streetno: 2nd
+     - place: hyd
+     - pincode: 500001
+
+
+- name: ankit
+  phno: 77777
+  address:
+     - doorno: 534
+     -  streetno: 2nd
+     -  place: hyd
+     -  pincode: 500001
+
+- name: ramesh
+  phno: 66666
+  address: 
+    - doorno: 534
+    - streetno: 2nd
+    - place: hyd
+    - pincode: 500001
