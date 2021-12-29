@@ -1,5 +1,5 @@
 ---
-hosts: 172.31.43.123
+hosts: all
 become: yes
 tasks:
 - name: create a file on node side
