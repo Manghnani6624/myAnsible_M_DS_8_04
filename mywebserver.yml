@@ -16,16 +16,17 @@
     when: ansible_os_family =="Debian"
 
 
-  - name: i want to start webserver on only ansible Redhat node
+  - name: i want to start webserver on only ansible RedHat node
     yum: 
-    name: httpd
-    state: present
-    when: ansible_os_family =="Redhat"
+      name: httpd
+      state: present
+    when: ansible_os_family =="RedHat"
 
-  - name: i want to start webserver on only ansible redhat node
+  - name: i want to start webserver on only ansible RedHat node
     service:
-    name: httpd
-    when: ansible_os_family =="Redhat" 
+     name: httpd
+     state:
+    when: ansible_os_family =="RedHat" 
 
 
 
