@@ -1,4 +1,4 @@
 ---
-  mywebpackforubuntu:apache2
-  mywebpackforredhat:httpd
+ mywebpackforubuntu:apache2
+ mywebpackforredhat:httpd
 
