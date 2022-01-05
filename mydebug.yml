@@ -19,6 +19,6 @@
     apt:
      name: git
      state: present
-    when: myresult.stderr !x**
+    when: myresult.stderr !=**
 
  
