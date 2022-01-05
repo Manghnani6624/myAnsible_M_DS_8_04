@@ -15,3 +15,11 @@
 172.31.45.126
 
 
+
+
+[mywebservers:vars]
+mywebpackageforubuntu= apache222222
+mywebpackageforredhat= httpd
+
+
+
