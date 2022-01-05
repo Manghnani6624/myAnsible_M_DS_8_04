@@ -1,0 +1,12 @@
+---
+- hosts: 172.31.43.123 
+
+  become: yes
+  vars:
+     myvars1: git
+     myvars2: tree
+     myvars3: wget
+  tasks:
+  - name: install tree
+    apt:
+      name: "{{myvars1}}"
