@@ -10,3 +10,7 @@
   - name: install tree
     apt:
       name: "{{myvars1}}"
+  - name: i want to display myvars1
+    debug:
+       msg: "{{myvars1}}"
+
