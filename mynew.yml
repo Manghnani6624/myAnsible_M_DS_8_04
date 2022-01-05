@@ -22,7 +22,7 @@
       state: present
     when: ansible_os_family == "RedHat"
   
-  - name: i wan to start webserver on only ansible Redhat node
+  - name: i want to start webserver on only ansible Redhat node
     service:
        name: httpd
        state: started
